@@ -16,7 +16,7 @@ const ReplySchema = new Schema({
         createdAt: {
             type: Date,
             default: Date.now,
-            get: createdAtVal => dateFormate(createdAtVal)
+            get: createdAtVal => dateFormat(createdAtVal)
         }
 },
 {
